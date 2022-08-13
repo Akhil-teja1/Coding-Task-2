@@ -1,0 +1,25 @@
+import java.util.*;
+public class ObjectStorage 
+{
+    public static void main(String[] args) 
+    {
+        ArrayList<Integer> arrList = new ArrayList<Integer>();
+        arrList.add(1);
+        arrList.add(2);
+        arrList.add(3);
+        arrList.add(4);
+        arrList.add(5);
+        arrList.add(6);
+    System.out.println("Insertion of Elements ");
+    System.out.println("ArrayList : " + arrList);
+    System.out.println("Retriving of elements in the same order");
+    System.out.print("ArrayList using for-Each : "); 
+    for(Integer numbers:arrList)
+    {
+        System.out.print(numbers);
+        System.out.print(",");
+    }
+    
+  } 
+  
+}
